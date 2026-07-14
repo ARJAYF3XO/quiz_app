@@ -1,1 +1,0 @@
-<?php include 'config.php';$id=(int)$_GET['id'];mysqli_query($conn,"DELETE FROM quizzes WHERE id=$id");header('Location:index.php');
